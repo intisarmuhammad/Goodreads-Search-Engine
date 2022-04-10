@@ -4,7 +4,7 @@ In this project, I created a search engine in order to query book titles, gather
 ## Step 1
 - The first thing I did was downloaded the goodreads dataset which is a comprehensive list of books from https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks
 - Then, I cleaned the data using OpenRefine (https://openrefine.org/download.html)
-- In this step, I 
+- In this step, I removed the isbn columns, transformed some columns (average_ratinng, ratings_count, num_pages, text_reviews_count) to numeric and removed  rows from those columns that were non-numeric
 
 ## Step 2
 - I imported the clean dataset to Jupyter noebook and cleaned the data more (for the search engine to work) by creating a new column for book titles that removed non-alphanumeric characters, transforming the titles to lowercase, removing multiple spaces in a row if they exists, and removing rows with null titles.
