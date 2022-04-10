@@ -1,8 +1,9 @@
 # Project Overview
-In this project, I created a search engine in order to query book titles, gather their unique book IDs, and display all of the books' information. This application is useful for people who have a list of books (favorite books, to-be-read, popular books etc.) and would like to view all the data from those books at once
+In this project, I created a search engine in order to query book titles, gather their unique book IDs, and display all of the books' information. This application is useful for people who have a list of books (favorite books, to-be-read, popular books etc.) and would like to view all the data from those books at once such as the average ratings, publisher, author, and date it was published.
 
 ## Step 1
-- The first thing I did was cleaned the data using OpenRefine (https://openrefine.org/download.html)
+- The first thing I did was downloaded the goodreads dataset which is a comprehensive list of books from https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks
+- Then, I cleaned the data using OpenRefine (https://openrefine.org/download.html)
 - In this step, I 
 
 ## Step 2
